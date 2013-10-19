@@ -7,7 +7,7 @@ layout: default
 	{% for dino in site.pages %}
 		{% if dino.category == "carnivore" %}
 			<li>
-				<img src="{{site.baseurl}}/img/{{dino.thumb}}" alt="Photo of {{dino.name}}">
+				<img src="{{site.baseurl}}/img/{{dino.thumb}}" class="flex-img" alt="Photo of {{dino.name}}">
 				<p>{{dino.name}}</p>
 			</li>
 		{% endif %}
